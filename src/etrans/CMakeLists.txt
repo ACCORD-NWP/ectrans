@@ -2,6 +2,7 @@
 # (using CMAKE_CURRENT_SOURCE_DIR is necessary because sources are in a different directory than the target library (trans_${prec})
 ecbuild_list_add_pattern( LIST etrans_src
 					  GLOB
+							${CMAKE_CURRENT_SOURCE_DIR}/cpu/internal/*
 							${CMAKE_CURRENT_SOURCE_DIR}/biper/internal/*
 							${CMAKE_CURRENT_SOURCE_DIR}/biper/external/*
 							${CMAKE_CURRENT_SOURCE_DIR}/etrans/internal/*
