@@ -38,6 +38,7 @@ foreach( prec sp dp )
                              fiat
                              parkind_${prec}
                              trans_${prec}
+			   LINKER_LANGUAGE Fortran
                           )
   endif()
 endforeach()
